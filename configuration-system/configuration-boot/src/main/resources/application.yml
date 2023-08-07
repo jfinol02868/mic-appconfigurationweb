@@ -1,2 +1,7 @@
 server:
   port: 2025
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://uconfigweb:mPBS47BM5ksX9p7jYIDeyIxHf4f@127.0.0.1:27010/dconfigweb

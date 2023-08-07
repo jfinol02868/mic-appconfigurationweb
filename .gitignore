@@ -1,3 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.idea
+/local-config/.env
+/configuration-system/configuration-api/target
+/configuration-system/configuration-application/target
+/configuration-system/configuration-boot/target
+/configuration-system/configuration-domain/target
+/configuration-system/configuration-infraestructure/target
