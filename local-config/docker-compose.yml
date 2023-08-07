@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: my-mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    ports:
+      - "27010:27017"
+    volumes:
+      - mongodb_data:/data/db
+    command: --auth
+
+volumes:
+  mongodb_data:

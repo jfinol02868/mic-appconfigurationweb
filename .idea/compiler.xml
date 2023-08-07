@@ -16,7 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="com.solutiones.one" options="-parameters" />
+      <module name="com.solutiones.one" options="" />
       <module name="configuration-api" options="-parameters" />
       <module name="configuration-application" options="-parameters" />
       <module name="configuration-boot" options="-parameters" />
